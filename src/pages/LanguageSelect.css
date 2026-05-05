@@ -1,0 +1,122 @@
+.lang-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
+  padding: 0;
+}
+
+.lang-container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.lang-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.lang-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.lang-subtitle {
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  flex: 1;
+  margin-bottom: 24px;
+}
+
+.lang-card {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 18px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  font-family: inherit;
+}
+
+.lang-card:hover {
+  border-color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(102, 126, 234, 0.1);
+}
+
+.lang-card.selected {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+}
+
+.lang-flag {
+  font-size: 32px;
+}
+
+.lang-native {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  text-align: center;
+}
+
+.lang-name {
+  font-size: 11px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.lang-check {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: #667eea;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.lang-save-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 18px;
+  border-radius: 18px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+  font-family: inherit;
+  margin-top: auto;
+}
+
+.lang-save-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(102, 126, 234, 0.4);
+}

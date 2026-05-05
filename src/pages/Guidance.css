@@ -1,0 +1,40 @@
+/* ===== SUGGESTIONS ===== */
+.suggestions {
+  margin: 8px 0;
+  padding: 4px 0;
+}
+
+.sug-label {
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-left: 4px;
+}
+
+.sug-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sug-btn {
+  background: #ffffff;
+  border: 1.5px solid #e0e7ff;
+  color: #667eea;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  box-shadow: 0 2px 6px rgba(102, 126, 234, 0.08);
+}
+
+.sug-btn:hover {
+  background: #f0f4ff;
+  border-color: #667eea;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(102, 126, 234, 0.15);
+}
