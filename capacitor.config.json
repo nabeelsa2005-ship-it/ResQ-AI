@@ -1,0 +1,25 @@
+{
+  "appId": "ai.resq.app",
+  "appName": "ResQ AI",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#ef4444",
+      "showSpinner": false,
+      "androidSplashResourceName": "splash"
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  }
+}
